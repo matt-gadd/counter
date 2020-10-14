@@ -1,0 +1,17 @@
+{
+	"build-widget": {
+		"prefix": "my",
+		"widgets": [
+			"src/counter/Counter"
+		],
+		"externals": {
+			"outputPath": ".",
+			"dependencies": [
+				{
+					"from": "src/index.html",
+					"to": "index.html"
+				}
+			]
+		}
+	}
+}

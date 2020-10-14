@@ -1,0 +1,16 @@
+.count {
+	font-size: 200%;
+	width: 4rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.increment, .decrement {
+	font-size: 200%;
+	width: 4rem;
+	height: 4rem;
+	border: none;
+	border-radius: 10px;
+	background-color: seagreen;
+	color: white;
+}
